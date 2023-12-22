@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #FF5733, #33FF57, #5733FF, #FF33F2, #F2FF33, #33F2FF);
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .playerX {
+    color: #FF5733;
+  }
+  
+  .playerO {
+    color: #33FF57;
+  }
+  
+ 
+  .playerX:hover {
+    color: #5733FF; }
+  
+  .playerO:hover {
+    color: #FF33F2; 
+  }
+  
